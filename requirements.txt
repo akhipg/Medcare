@@ -1,5 +1,4 @@
 Flask
-Flask-Bootstrap
 gunicorn
 Jinja2
 nltk
