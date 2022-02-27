@@ -1,0 +1,162 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hey!",
+        "Hello, thanks for visiting",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+      "tag": "definition",
+      "patterns": [
+        "What is Diabetes?",
+        "Diabetes",
+        "What do you mean by diabetes?"
+      ],
+      "responses": [
+        "Diabetes is a condition that impairs the body ability to process blood glucose, otherwise known as blood sugar."
+      ]
+    },
+    {
+      "tag": "Causes",
+      "patterns": [
+        "Diabetes causes?",
+        "Harmful causes of diabetes?"
+      ],
+      "responses": [
+        "Without ongoing, careful management, diabetes can lead to a buildup of sugars in the blood, which can increase the risk of dangerous complications, including stroke and heart disease."
+      ]
+    },
+    {
+      "tag": "types",
+      "patterns": [
+        "Types of Diabetes?",
+        "What are the different types of diabetes?"
+      ],
+      "responses": [
+        "Type 1, type 2, and gestational diabetes."
+      ]
+    },
+    {
+      "tag": "thingstodo",
+      "patterns": [
+        "What all things a person having diabetes can do?",
+        "how can i embrace my life if i have diabetes?"
+      ],
+      "responses": [
+        "Eating a diet high in fresh, nutritious foods, including whole grains, fruits, vegetables, lean proteins, low-fat dairy, and healthy fat sources, such as nuts.",
+        "Avoiding high-sugar foods that provide empty calories, or calories that do not have other nutritional benefits, such as sweetened sodas, fried foods, and high-sugar desserts.",
+        "Refraining from drinking excessive amounts of alcohol or keeping intake to less than one drink a day for women or two drinks a day for men.",
+        "Engaging in at least 30 minutes exercise a day on at least 5 days of the week, such as of walking, aerobics, riding a bike, or swimming.",
+        "Recognizing signs of low blood sugar when exercising, including dizziness, confusion, weakness, and profuse sweating."
+      ]
+    },
+    {
+      "tag": "treatments",
+      "patterns": [
+        "Treatments for diabetes?",
+        "What are the treatments for diabetes?",
+        "What are the treatments"
+      ],
+      "responses": [
+        "For which type of diabetes you want to know the treatment: Type 1, type 2, and gestational diabetes?"
+      ]
+    },
+    {
+      "tag": "treattypeone",
+      "patterns": [
+        "Type 1"
+      ],
+      "responses": [
+        "Insulin is the main treatment for type 1 diabetes. It replaces the hormone your body is not able to produce. To know the treatment for Type 2, and gestational diabetes (For Type 2 enter: Type 2, For Gestational enter: Gestational)"
+      ]
+    },
+    {
+      "tag": "treattypetwo",
+      "patterns": [
+        "Type 2"
+      ],
+      "responses": [
+        "Diet and exercise can help some people manage type 2 diabetes. If lifestyle changes are not enough to lower your blood sugar, you will need to take medication. To know the treatment for Type 2, and gestational diabetes (For Type 1 enter: Type 1, For Gestational enter: Gestational)"
+      ]
+    },
+    {
+      "tag": "treatgestational",
+      "patterns": [
+        "gestational",
+        "gestational diabetes"
+      ],
+      "responses": [
+        "You will need to monitor your blood sugar level several times a day during pregnancy. If it is high, dietary changes and exercise may or may not be enough to bring it down. To know the treatment for Type 2, and gestational diabetes (For Type 1 enter: Type 1, For Type 2 enter: Type 2)"
+      ]
+    },
+    {
+      "tag": "prevention",
+      "patterns": [
+        "How can we prevent diabetes?",
+        "Preventions?",
+        "how to prevent diabetes?",
+        "measures to prevent?"
+      ],
+      "responses": [
+        "Type 1 diabetes is not preventable because it is caused by a problem with the immune system. Some causes of type 2 diabetes, such as your genes or age, are not under your control either. But do you want to know few things you can do to delay or prevent type 2 diabetes (If yes the type: prevention for type 2 diabetes!!"
+      ]
+    },
+    {
+      "tag": "typetwoprevent",
+      "patterns": [
+        "prevention for type 2 diabetes!!"
+      ],
+      "responses": [
+        "Get at least 150 minutes per week of aerobic exercise, such as walking or cycling. Cut saturated and trans fats, along with refined carbohydrates, out of your diet. Eat more fruits, vegetables, and whole grains. Eat smaller portions.Try to lose 7 percentTrusted Source of your body weight if you are overweight or obese"
+      ]
+    },
+    {
+      "tag": "Symptoms",
+      "patterns": [
+        "What are the symptoms?",
+        "What are the symptoms of diabetes?",
+        "Symptoms"
+      ],
+      "responses": [
+        "The general symptoms of diabetes include: increased hunger, increased thirst, weight loss, frequent urination, blurry vision, extreme fatigue, nsores that do not heal"
+      ]
+    },
+    {
+      "tag": "features",
+      "patterns": [
+        "What all things you do?",
+        "What can you do for me?",
+        "What can you do?"
+      ],
+      "responses": [
+        "You can ask me things related to Diabetes"
+      ]
+    }
+  ]
+}
