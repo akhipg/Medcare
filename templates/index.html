@@ -51,7 +51,38 @@
             <div class="banner-text text-center">
               <h1 class="white">Healthcare at your desk!!</h1>
              <!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod <br>tempor incididunt ut labore et dolore magna aliqua.</p> --> 
-              <a href="https://diabetespre.herokuapp.com/" class="btn btn-appoint btn-lg">Diabetes Test</a>
+              <a class="btn btn-appoint btn-lg" data-target="#mymodal" data-toggle="modal">Diabetes Test</a>
+              
+              <div class="modal" tabindex="-1" id="mymodal" role="dialog">
+                <div class="modal-dialog" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title">Pre-requisites</h5>
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    <div class="modal-body">
+                      <p>Below features are required prior to taking test :
+                        <br>
+                        <br>1. Pregnancies
+                        <br>2. Glucose
+                        <br>3. Blood Pressure
+                        <br>4. Skin Thickness
+                        <br>5. Insulin
+                        <br>6. BMI
+                        <br>7. Diabetes Pedigree Function
+                        <br>8. Age
+                      </p>
+                    </div>
+                    <div class="modal-footer">
+                      <a href="https://diabetespre.herokuapp.com/"><button type="button" class="btn btn-success">Take Test</button></a>
+                      <button type="button" class="btn btn-success" data-dismiss="modal">Close</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
             </div>
             <div class="overlay-detail text-center">
               <a href="#service"><i class="fa fa-angle-down"></i></a>
