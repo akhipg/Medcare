@@ -23,7 +23,7 @@
       "responses": [
         "See you later, thanks for visiting",
         "Have a nice day",
-        "Bye! Come back again soon."
+        "Bye!"
       ]
     },
     {
@@ -36,17 +36,21 @@
       "patterns": [
         "What is Diabetes?",
         "Diabetes",
-        "What do you mean by diabetes?"
+        "What do you mean by diabetes?",
+        "Tell me about diabetes"
       ],
       "responses": [
-        "Diabetes is a condition that impairs the body ability to process blood glucose, otherwise known as blood sugar."
+        "Diabetes is a condition that impairs the body ability to process blood glucose, otherwise known as blood sugar. You can ask me things related to Diabetes like what is diabetes, causes, preventions, symptoms, types"
       ]
     },
     {
       "tag": "Causes",
       "patterns": [
         "Diabetes causes?",
-        "Harmful causes of diabetes?"
+        "Causes of diabetes",
+        "Harmful causes of diabetes?",
+        "Causes",
+        "What causes diabetes"
       ],
       "responses": [
         "Without ongoing, careful management, diabetes can lead to a buildup of sugars in the blood, which can increase the risk of dangerous complications, including stroke and heart disease."
@@ -56,17 +60,19 @@
       "tag": "types",
       "patterns": [
         "Types of Diabetes?",
-        "What are the different types of diabetes?"
+        "What are the different types of diabetes?",
+        "Diabetes types"
       ],
       "responses": [
-        "Type 1, type 2, and gestational diabetes."
+        "Type 1, type 2, and gestational diabetes. You can also know treatments related to these types"
       ]
     },
     {
       "tag": "thingstodo",
       "patterns": [
         "What all things a person having diabetes can do?",
-        "how can i embrace my life if i have diabetes?"
+        "how can i embrace my life if i have diabetes?",
+        "What a person can do if he has diabetes?"
       ],
       "responses": [
         "Eating a diet high in fresh, nutritious foods, including whole grains, fruits, vegetables, lean proteins, low-fat dairy, and healthy fat sources, such as nuts.",
@@ -81,7 +87,8 @@
       "patterns": [
         "Treatments for diabetes?",
         "What are the treatments for diabetes?",
-        "What are the treatments"
+        "What are the treatments?",
+        "Treatments"
       ],
       "responses": [
         "For which type of diabetes you want to know the treatment: Type 1, type 2, and gestational diabetes?"
@@ -90,7 +97,9 @@
     {
       "tag": "treattypeone",
       "patterns": [
-        "Type 1"
+        "Type 1",
+        "Tell me about Type 1",
+        "Treatments for type 1"
       ],
       "responses": [
         "Insulin is the main treatment for type 1 diabetes. It replaces the hormone your body is not able to produce. To know the treatment for Type 2, and gestational diabetes (For Type 2 enter: Type 2, For Gestational enter: Gestational)"
@@ -99,20 +108,24 @@
     {
       "tag": "treattypetwo",
       "patterns": [
-        "Type 2"
+        "Type 2",
+        "Tell me about Type 2",
+        "Treatments for type 2"
       ],
       "responses": [
-        "Diet and exercise can help some people manage type 2 diabetes. If lifestyle changes are not enough to lower your blood sugar, you will need to take medication. To know the treatment for Type 2, and gestational diabetes (For Type 1 enter: Type 1, For Gestational enter: Gestational)"
+        "Diet and exercise can help some people manage type 2 diabetes. If lifestyle changes are not enough to lower your blood sugar, you will need to take medication. (To know the treatment for Type 1 enter: Type 1, For Gestational enter: Gestational)"
       ]
     },
     {
       "tag": "treatgestational",
       "patterns": [
         "gestational",
-        "gestational diabetes"
+        "gestational diabetes",
+        "Tell me about gestational",
+        "Treatments for gestational"
       ],
       "responses": [
-        "You will need to monitor your blood sugar level several times a day during pregnancy. If it is high, dietary changes and exercise may or may not be enough to bring it down. To know the treatment for Type 2, and gestational diabetes (For Type 1 enter: Type 1, For Type 2 enter: Type 2)"
+        "You will need to monitor your blood sugar level several times a day during pregnancy. If it is high, dietary changes and exercise may or may not be enough to bring it down. (To know the treatment for  Type 1 enter: Type 1, For Type 2 enter: Type 2)"
       ]
     },
     {
@@ -124,7 +137,7 @@
         "measures to prevent?"
       ],
       "responses": [
-        "Type 1 diabetes is not preventable because it is caused by a problem with the immune system. Some causes of type 2 diabetes, such as your genes or age, are not under your control either. But do you want to know few things you can do to delay or prevent type 2 diabetes (If yes the type: prevention for type 2 diabetes!!"
+        "Type 1 diabetes is not preventable because it is caused by a problem with the immune system. Some causes of type 2 diabetes, such as your genes or age, are not under your control either. But do you want to know few things you can do to delay or prevent type 2 diabetes (If yes the type: prevention for type 2 diabetes!!)"
       ]
     },
     {
@@ -141,7 +154,8 @@
       "patterns": [
         "What are the symptoms?",
         "What are the symptoms of diabetes?",
-        "Symptoms"
+        "Symptoms",
+        "Symptoms of diabetes"
       ],
       "responses": [
         "The general symptoms of diabetes include: increased hunger, increased thirst, weight loss, frequent urination, blurry vision, extreme fatigue, nsores that do not heal"
@@ -155,7 +169,7 @@
         "What can you do?"
       ],
       "responses": [
-        "You can ask me things related to Diabetes"
+        "You can ask me things related to Diabetes like what is diabetes, causes, preventions, symptoms, types"
       ]
     }
   ]
